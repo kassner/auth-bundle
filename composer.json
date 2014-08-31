@@ -1,0 +1,19 @@
+{
+    "name": "kassner/auth-bundle",
+    "require": {
+        "symfony/security-core": "~2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Kassner",
+            "email": "kassner@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kassner\\AuthBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
