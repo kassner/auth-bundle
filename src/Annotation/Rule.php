@@ -12,7 +12,11 @@ class Rule
 
     public function __construct(array $values)
     {
-        $this->rules = $values['value'];
+        if (!empty($values['rules'])) {
+            $this->rules = $values['rules'];
+        } else {
+            $this->rules = $values['value'];
+        }
     }
 
 }
